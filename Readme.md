@@ -119,6 +119,10 @@ Multi-class model successfully predicts common vulnerability categories
 
 Overall approach is lightweight and production-friendly
 
+Task 3- (Optional)
+An optional sandbox concept has also been provided for safely testing and reproducing vulnerabilities in isolated environments.
+See sandbox.md for details.
+
 **Technology Stack**
 
 Python 3.x
@@ -142,6 +146,7 @@ openai (Task 1)
 ├── Task_1_LLM_Prompt_Optimizer.ipynb
 ├── Task_2_ML_Vulnerability_Classifier.ipynb
 ├── README.md
+├── sandbox.md   # Optional sandbox design for safe vulnerability testing
 
 **How to Run the Project**
 1. Install Required Libraries
